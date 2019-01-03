@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Cyber Protector</string>
+    <string name="cs">CHECK STATUS</string>
+    <string name="S">SWITCH</string>
 </resources>
