@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.vaseem.cyberprotector">
-
-    <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.REQUEST_COMPANION_RUN_IN_BACKGROUND" />
-    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    package="com.example.vaseem.Daimon">
 
     <application
         android:allowBackup="true"
@@ -13,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.vaseem.Daimon.MainActivity">
+
+        </activity>
+        <activity android:name="com.example.vaseem.Daimon.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

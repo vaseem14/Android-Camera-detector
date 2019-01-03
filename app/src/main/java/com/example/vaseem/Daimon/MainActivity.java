@@ -1,8 +1,6 @@
-package com.example.vaseem.cyberprotector;
+package com.example.vaseem.Daimon;
 
-import android.app.Dialog;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.hardware.camera2.CameraAccessException;
 import android.hardware.camera2.CameraManager;
 import android.os.Handler;
@@ -26,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         builder.setTitle("WARNING!!");
         builder.setMessage("Camera is Running!");
         builder.setNegativeButton("Cancel",null);
+        builder.setIcon(R.drawable.icon);
         AlertDialog alertDialog=builder.create();
         alertDialog.show();
     }
@@ -34,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         builder.setTitle("WARNING!!");
         builder.setMessage("Camera is Not Running!");
         builder.setNegativeButton("Cancel",null);
+        builder.setIcon(R.drawable.icon);
         AlertDialog alertDialog=builder.create();
         alertDialog.show();
     }
