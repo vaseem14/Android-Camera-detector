@@ -3,4 +3,8 @@
     <string name="cs">CHECK STATUS</string>
     <string name="S">SWITCH</string>
     <string name="SS">START SERVICE</string>
+    <string name="t">INSTRUCTIONS:</string>
+    <string name="t1">(1) Toggle the start service button once the app starts.</string>
+    <string name="t2">(2) Click the Check status button after starting the service to know the running status of your mobile camera.</string>
+    <string name="t3">(3) A Toast message will appear at the start of any camera activities.</string>
 </resources>
