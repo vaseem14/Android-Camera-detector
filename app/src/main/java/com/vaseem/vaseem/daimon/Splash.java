@@ -1,10 +1,14 @@
-package com.example.vaseem.Daimon;
+package com.vaseem.vaseem.Daimon;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.os.Handler;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.ViewGroup;
+
+import com.vaseem.vaseem.daimon.MainActivity;
+import com.vaseem.vaseem.daimon.R;
+
 
 public class Splash extends Activity {
 

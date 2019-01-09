@@ -1,4 +1,4 @@
-package com.example.vaseem.Daimon;
+package com.vaseem.vaseem.daimon;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.vaseem.cyberprotector", appContext.getPackageName());
+        assertEquals("com.example.vaseem.daimon", appContext.getPackageName());
     }
 }

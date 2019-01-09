@@ -1,4 +1,4 @@
-package com.example.vaseem.Daimon;
+package com.vaseem.vaseem.daimon;
 
 import org.junit.Test;
 
